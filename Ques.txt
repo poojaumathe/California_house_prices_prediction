@@ -1,0 +1,12 @@
+	QUESTION:
+
+
+Regression: Predicting House Prices in California
+ Use the California housing dataset from sklearn.datasets.fetch_california_housing. More information about the dataset is here:http://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html
+?	Visualize the univariate distribution of each feature, and the distribution of the target. Do you notice anything? Is something that you think might require special treatment (comment what it is).
+?	Visualize the dependency of the target on each feature (2d scatter plot).
+?	Split data in training and test set. Evaluate Linear Regression (OLS), Ridge, Lasso and ElasticNet using cross-validation with the default parameters. Then scale / normalize / transform the data. Does scaling / normalizing / transformation of data help?
+?	Tune the parameters of the models using GridSearchCV. Do the results improve? Visualize the dependence of the validation score on the parameters for Ridge, Lasso and ElasticNet.
+?	Visualize the coefficients of the resulting models. Do they agree on which features are important?
+
+
